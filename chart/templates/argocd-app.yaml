@@ -9,7 +9,7 @@ spec:
     namespace: argocd
   project: default
   source:
-    path: chart
+    path: chart/
     repoURL: https://github.com/kvenu/Argocd.git
     targetRevision: HEAD
   syncPolicy:
